@@ -31,6 +31,7 @@ public class LoginTest {
 		driver.findElement(By.cssSelector(".login-button.login-text")).click();
 		driver.findElement(By.name("login_form[username]")).sendKeys("BlaBlaBlaBla");
 		driver.findElement(By.name("login_form[password]")).sendKeys("BlaBlaBlaBla");
+		driver.findElement(By.cssSelector(".element-form-button-solid-lime.element-form-button-size-40.mb20")).click();
 
 	}
 
